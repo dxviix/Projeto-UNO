@@ -1,0 +1,27 @@
+|||||UNO MUSICAL|||||
+
+- cores: verde, vermelho, azul e amarelo;
+- cartas:
+	108 no total;
+	cada jogador começa com 7 cartas;
+	
+		*0 à 9
+			- traço embaixo do 6 e do 9 para diferenciá-los;
+		
+		*bloquear
+
+		*comprar 2 
+
+		*comprar 4
+
+			4 cartas
+			
+
+		*inverter
+
+		*trocar de cor
+
+			4 cartas
+
+
+- se iniciado com *comprar 4* a carta deve ser devolvida ao baralho
