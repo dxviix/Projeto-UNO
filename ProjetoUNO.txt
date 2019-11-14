@@ -1,27 +1,36 @@
 |||||UNO MUSICAL|||||
 
-- cores: verde, vermelho, azul e amarelo;
+- cores:
+	verde, vermelho, azul e amarelo;
+
 - cartas:
 	108 no total;
 	cada jogador começa com 7 cartas;
 	
 		*0 à 9
-			- traço embaixo do 6 e do 9 para diferenciá-los;
+			traço embaixo do 6 e do 9 para diferenciá-los;
 		
 		*bloquear
+			impede o próximo jogador de jogar;
 
 		*comprar 2 
+			obriga o próximo jogador a comprar 2 cartas do bolo;
 
 		*comprar 4
-
-			4 cartas
+			obriga o próximo jogador a comprar 4 cartas do bolo;
+			4 cartas;
 			
 
 		*inverter
+			inveterte o sentido da rodada;
 
 		*trocar de cor
+			o jogador pode escolher a próxima cor que as cartas devem ter;
+			4 cartas;
 
-			4 cartas
-
-
-- se iniciado com *comprar 4* a carta deve ser devolvida ao baralho
+- lógica:
+	reconhecer mesma cor;
+	reconhecer números iguais;
+	se não tiver uma carta para jogar, puxe uma automática;
+	só poderá ser jogada uma carta por vez;
+	quando o jogador tiver apenas 1 carta precisa digitar "U", caso não, receberá uma carta automaticamente;
